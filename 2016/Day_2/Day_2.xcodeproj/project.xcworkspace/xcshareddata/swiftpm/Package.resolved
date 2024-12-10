@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "adventofcodestarterpack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/redwasp/AdventOfCodeStarterPack",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9b284f7571ddeabe591d7103856daf9daf163a17"
+      }
+    }
+  ],
+  "version" : 2
+}

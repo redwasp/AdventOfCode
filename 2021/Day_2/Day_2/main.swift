@@ -37,7 +37,7 @@ for item in items {
     }
 }
 
-print("Day_2_1: \(position.horizontal*position.depth)")
+print("Day_2_1: \(position.horizontal*position.depth)")//1855814
 
 var aim = 0
 position = Position()
@@ -53,4 +53,4 @@ for item in items {
         aim -= item.value
     }
 }
-print("Day_2_2: \(position.horizontal*position.depth)")
+print("Day_2_2: \(position.horizontal*position.depth)")//1845455714
