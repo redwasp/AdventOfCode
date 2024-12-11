@@ -9,16 +9,13 @@ import Foundation
 
 let inputFileURL  = URL(fileURLWithPath: "input.txt")
 let inputFileData = try! String(contentsOf: inputFileURL, encoding: .utf8).trimmingCharacters(in: .whitespacesAndNewlines)
-var result : Int = inputFileData
+var reports = inputFileData
     .components(separatedBy:.newlines)
     .map {
         $0.split(separator:" ", omittingEmptySubsequences: true).map{Int($0)!}
     }
     .map {
-        var e : [Int] = []
-        var errors = 0
-        var a = 0
-        var b = 0
+        var (a, b) = (0, 0)
         for index in 1..<$0.count {
             if $0[index-1] > $0[index] {
                 a += 1
@@ -26,14 +23,15 @@ var result : Int = inputFileData
                 b += 1
             }
         }
-        
-        var ar = $0
-        if a > b {
-            ar = $0.reversed()
-        }
-        return isToleranceValid(ar)
+        return  a > b ? $0.reversed() : $0
     }
-    .reduce(0) { $0 + ($1 ? 1 : 0)}
+
+var result1 = reports.reduce(0) { $0 + (isValid($1) ? 1 : 0)}
+print("Day_2_1:", result1)//257
+
+var result2 = reports.reduce(0) { $0 + (isToleranceValid($1) ? 1 : 0)}
+print("Day_2_2:", result2)//328
+
 
 func isValid(_ arr: [Int]) -> Bool {
     var prev = arr.first!
@@ -57,6 +55,3 @@ func isToleranceValid(_ ar: [Int]) -> Bool {
     }
     return false
 }
-
-
-print("Day_2_1: \(result)")//310

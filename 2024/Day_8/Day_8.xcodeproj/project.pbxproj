@@ -6,15 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		719F60092D0836EB00D9DBD3 /* AdventOfCodeStarterPack in Frameworks */ = {isa = PBXBuildFile; productRef = 719F60082D0836EB00D9DBD3 /* AdventOfCodeStarterPack */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		719F5FFA2D0836B900D9DBD3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -22,9 +26,24 @@
 		719F5FFC2D0836B900D9DBD3 /* Day_8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day_8; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		719F60102D083C7400D9DBD3 /* Exceptions for "Day_8" folder in "Copy Files" phase from "Day_8" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 719F5FFA2D0836B900D9DBD3 /* CopyFiles */;
+			membershipExceptions = (
+				input.txt,
+				input1.txt,
+				inputLow.txt,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		719F5FFE2D0836B900D9DBD3 /* Day_8 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				719F60102D083C7400D9DBD3 /* Exceptions for "Day_8" folder in "Copy Files" phase from "Day_8" target */,
+			);
 			path = Day_8;
 			sourceTree = "<group>";
 		};
@@ -35,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				719F60092D0836EB00D9DBD3 /* AdventOfCodeStarterPack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +97,7 @@
 			);
 			name = Day_8;
 			packageProductDependencies = (
+				719F60082D0836EB00D9DBD3 /* AdventOfCodeStarterPack */,
 			);
 			productName = Day_8;
 			productReference = 719F5FFC2D0836B900D9DBD3 /* Day_8 */;
@@ -106,6 +127,9 @@
 			);
 			mainGroup = 719F5FF32D0836B900D9DBD3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				719F60072D0836EB00D9DBD3 /* XCLocalSwiftPackageReference "../../AdventOfCodeStarterPack" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 719F5FFD2D0836B900D9DBD3 /* Products */;
 			projectDirPath = "";
@@ -289,6 +313,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		719F60072D0836EB00D9DBD3 /* XCLocalSwiftPackageReference "../../AdventOfCodeStarterPack" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../AdventOfCodeStarterPack;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		719F60082D0836EB00D9DBD3 /* AdventOfCodeStarterPack */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdventOfCodeStarterPack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 719F5FF42D0836B900D9DBD3 /* Project object */;
 }

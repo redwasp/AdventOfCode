@@ -41,4 +41,4 @@ let result2 = iFD
         return 0
     }
     .reduce(0, +)
-print("Day_3_2:", result2)
+print("Day_3_2:", result2)//75920122

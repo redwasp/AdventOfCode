@@ -7,7 +7,7 @@
 
 import Foundation
 
-let inputFileURL  = URL(fileURLWithPath: "input.txt")
+let inputFileURL  = URL(fileURLWithPath: "input1.txt")
 let inputFileData = try! String(contentsOf: inputFileURL, encoding: .utf8).trimmingCharacters(in: .whitespacesAndNewlines)
 let m = inputFileData.components(separatedBy: .newlines).map{$0.map{$0}}
 let dxs = [-1, -1,  0,  1, 1, 1, 0, -1]

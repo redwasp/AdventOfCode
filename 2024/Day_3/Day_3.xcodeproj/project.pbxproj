@@ -28,6 +28,7 @@
 			buildPhase = 719F5F332CFF651200D9DBD3 /* CopyFiles */;
 			membershipExceptions = (
 				input.txt,
+				input1.txt,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */

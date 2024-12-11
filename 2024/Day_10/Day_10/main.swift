@@ -19,8 +19,9 @@ for y in field.indices {
     let row = field[y]
     for x in row.indices {
         if field[y][x] == 0 {
-            result1 += score(Position(x: x, y: y)).count
-            result2 += score2(Position(x: x, y: y))
+            let pos = Position(x, y)
+            result1 += score(pos).count
+            result2 += score2(pos)
         }
     }
 }
