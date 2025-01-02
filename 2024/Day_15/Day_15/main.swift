@@ -147,7 +147,6 @@ func moveBoxes(to pos: Position, _ dir: Direction) {
 }
 
 pos = start
-frintField()
 
 for dir in path {
     let nextPos = pos + dir
@@ -163,7 +162,6 @@ for dir in path {
         field2[nextPos] = .empty
         pos = nextPos
     }
-    //frintField()
 }
 
 var result2 = 0
