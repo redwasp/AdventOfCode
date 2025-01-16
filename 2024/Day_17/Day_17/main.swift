@@ -12,7 +12,7 @@ let inputFileData = try! String(contentsOf: inputFileURL, encoding: .utf8).trimm
 let dataParts = inputFileData.split(separator: "\n\n")
 let regs = dataParts[0].split(separator: "\n").map{Int($0.split(separator:": ")[1])!}
 let program = dataParts[1].split(separator:": ")[1].components(separatedBy:",").map{Int($0)!}
-var (a,b,c) = (regs[0],regs[1],regs[2])
+var (a,b,c) = (regs[0], regs[1], regs[2])
 func find(_ a: Int) -> [Int] {
     var a = a
     var pos = 0

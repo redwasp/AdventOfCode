@@ -13,25 +13,33 @@ let dataParts = inputFileData.components(separatedBy:"\n\n")
 let patterns = dataParts[0].split(separator: ", ")
 let designs = dataParts[1].components(separatedBy:.newlines)
 
+var isValidCache: [Substring: Bool]  = [:]
 func isValid(_ design: Substring) -> Bool {
+    if let isValid = isValidCache[design] {
+        return isValid
+    }
     for pattern in patterns {
         if design.hasPrefix(pattern) {
             if design == pattern {
+                isValidCache[design] = true
                 return true
             }
             if isValid(design.dropFirst(pattern.count)) {
+                isValidCache[design] = true
                 return true
             }
         }
     }
+    isValidCache[design] = false
     return false
 }
 
 let result1 = designs.reduce(0) { $0 + (isValid(Substring($1)) ? 1 : 0)}
 print("Day_19_1:",result1)
-var cache: [Substring: Int]  = [:]
+
+var countValidCache: [Substring: Int]  = [:]
 func countValid(_ design: Substring) -> Int {
-    if let count = cache[design] {
+    if let count = countValidCache[design] {
         return count
     }
     var sum = 0
@@ -44,7 +52,7 @@ func countValid(_ design: Substring) -> Int {
             }
         }
     }
-    cache[design] = sum
+    countValidCache[design] = sum
     return sum
 }
 

@@ -29,6 +29,7 @@
 			membershipExceptions = (
 				example.txt,
 				input.txt,
+				input1.txt,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */

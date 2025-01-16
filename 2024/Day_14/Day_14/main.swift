@@ -27,7 +27,6 @@ let robots = inputFileData
     }
 
 let size = Position(101, 103)
-//let size = Position(11, 7)
 let half = Position(size.x/2, size.y/2)
 
 var sq = [0,0,0,0]

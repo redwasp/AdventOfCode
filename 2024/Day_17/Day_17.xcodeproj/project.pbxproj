@@ -30,6 +30,7 @@
 				example.txt,
 				example2.txt,
 				input.txt,
+				input1.txt,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */

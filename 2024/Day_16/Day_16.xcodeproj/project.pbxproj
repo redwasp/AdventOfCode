@@ -32,9 +32,10 @@
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 71A594E72D115BD80092301B /* CopyFiles */;
 			membershipExceptions = (
+				example1.txt,
+				example2.txt,
 				input.txt,
-				inputLow.txt,
-				inputLow2.txt,
+				input1.txt,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
