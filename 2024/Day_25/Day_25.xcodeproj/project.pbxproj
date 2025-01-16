@@ -6,73 +6,53 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		719607CA2D0AE1FC004DE1A2 /* AdventOfCodeStarterPack in Frameworks */ = {isa = PBXBuildFile; productRef = 719607C92D0AE1FC004DE1A2 /* AdventOfCodeStarterPack */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		7174989F2D0ADF1C00068660 /* CopyFiles */ = {
+		71F47A1F2D1BF61500392C25 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "";
-			dstSubfolderSpec = 16;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		717498A12D0ADF1C00068660 /* Day_12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day_12; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F47A212D1BF61500392C25 /* Day_25 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day_25; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		719607CD2D0AE526004DE1A2 /* Exceptions for "Day_12" folder in "Copy Files" phase from "Day_12" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 7174989F2D0ADF1C00068660 /* CopyFiles */;
-			membershipExceptions = (
-				input.txt,
-				input1.txt,
-				inputLow.txt,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		717498A32D0ADF1C00068660 /* Day_12 */ = {
+		71F47A232D1BF61500392C25 /* Day_25 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				719607CD2D0AE526004DE1A2 /* Exceptions for "Day_12" folder in "Copy Files" phase from "Day_12" target */,
-			);
-			path = Day_12;
+			path = Day_25;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7174989E2D0ADF1C00068660 /* Frameworks */ = {
+		71F47A1E2D1BF61500392C25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				719607CA2D0AE1FC004DE1A2 /* AdventOfCodeStarterPack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		717498982D0ADF1C00068660 = {
+		71F47A182D1BF61500392C25 = {
 			isa = PBXGroup;
 			children = (
-				717498A32D0ADF1C00068660 /* Day_12 */,
-				717498A22D0ADF1C00068660 /* Products */,
+				71F47A232D1BF61500392C25 /* Day_25 */,
+				71F47A222D1BF61500392C25 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		717498A22D0ADF1C00068660 /* Products */ = {
+		71F47A222D1BF61500392C25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				717498A12D0ADF1C00068660 /* Day_12 */,
+				71F47A212D1BF61500392C25 /* Day_25 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,68 +60,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		717498A02D0ADF1C00068660 /* Day_12 */ = {
+		71F47A202D1BF61500392C25 /* Day_25 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 717498A82D0ADF1C00068660 /* Build configuration list for PBXNativeTarget "Day_12" */;
+			buildConfigurationList = 71F47A282D1BF61500392C25 /* Build configuration list for PBXNativeTarget "Day_25" */;
 			buildPhases = (
-				7174989D2D0ADF1C00068660 /* Sources */,
-				7174989E2D0ADF1C00068660 /* Frameworks */,
-				7174989F2D0ADF1C00068660 /* CopyFiles */,
+				71F47A1D2D1BF61500392C25 /* Sources */,
+				71F47A1E2D1BF61500392C25 /* Frameworks */,
+				71F47A1F2D1BF61500392C25 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				717498A32D0ADF1C00068660 /* Day_12 */,
+				71F47A232D1BF61500392C25 /* Day_25 */,
 			);
-			name = Day_12;
+			name = Day_25;
 			packageProductDependencies = (
-				719607C92D0AE1FC004DE1A2 /* AdventOfCodeStarterPack */,
 			);
-			productName = Day_12;
-			productReference = 717498A12D0ADF1C00068660 /* Day_12 */;
+			productName = Day_25;
+			productReference = 71F47A212D1BF61500392C25 /* Day_25 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		717498992D0ADF1C00068660 /* Project object */ = {
+		71F47A192D1BF61500392C25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					717498A02D0ADF1C00068660 = {
+					71F47A202D1BF61500392C25 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 7174989C2D0ADF1C00068660 /* Build configuration list for PBXProject "Day_12" */;
+			buildConfigurationList = 71F47A1C2D1BF61500392C25 /* Build configuration list for PBXProject "Day_25" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 717498982D0ADF1C00068660;
+			mainGroup = 71F47A182D1BF61500392C25;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				719607C82D0AE1FC004DE1A2 /* XCLocalSwiftPackageReference "../../AdventOfCodeStarterPack" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 717498A22D0ADF1C00068660 /* Products */;
+			productRefGroup = 71F47A222D1BF61500392C25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				717498A02D0ADF1C00068660 /* Day_12 */,
+				71F47A202D1BF61500392C25 /* Day_25 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7174989D2D0ADF1C00068660 /* Sources */ = {
+		71F47A1D2D1BF61500392C25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -151,7 +127,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		717498A62D0ADF1C00068660 /* Debug */ = {
+		71F47A262D1BF61500392C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		717498A72D0ADF1C00068660 /* Release */ = {
+		71F47A272D1BF61500392C25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,7 +245,7 @@
 			};
 			name = Release;
 		};
-		717498A92D0ADF1C00068660 /* Debug */ = {
+		71F47A292D1BF61500392C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -280,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		717498AA2D0ADF1C00068660 /* Release */ = {
+		71F47A2A2D1BF61500392C25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -294,39 +270,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7174989C2D0ADF1C00068660 /* Build configuration list for PBXProject "Day_12" */ = {
+		71F47A1C2D1BF61500392C25 /* Build configuration list for PBXProject "Day_25" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				717498A62D0ADF1C00068660 /* Debug */,
-				717498A72D0ADF1C00068660 /* Release */,
+				71F47A262D1BF61500392C25 /* Debug */,
+				71F47A272D1BF61500392C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		717498A82D0ADF1C00068660 /* Build configuration list for PBXNativeTarget "Day_12" */ = {
+		71F47A282D1BF61500392C25 /* Build configuration list for PBXNativeTarget "Day_25" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				717498A92D0ADF1C00068660 /* Debug */,
-				717498AA2D0ADF1C00068660 /* Release */,
+				71F47A292D1BF61500392C25 /* Debug */,
+				71F47A2A2D1BF61500392C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		719607C82D0AE1FC004DE1A2 /* XCLocalSwiftPackageReference "../../AdventOfCodeStarterPack" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../AdventOfCodeStarterPack;
-		};
-/* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		719607C92D0AE1FC004DE1A2 /* AdventOfCodeStarterPack */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AdventOfCodeStarterPack;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 717498992D0ADF1C00068660 /* Project object */;
+	rootObject = 71F47A192D1BF61500392C25 /* Project object */;
 }

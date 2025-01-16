@@ -7,7 +7,7 @@
 
 import Foundation
 
-let inputFileURL  = URL(fileURLWithPath: "input.txt")
+let inputFileURL  = URL(fileURLWithPath: "input1.txt")
 let inputFileData = try! String(contentsOf: inputFileURL, encoding: .utf8).trimmingCharacters(in: .whitespacesAndNewlines)
 var stones = inputFileData.components(separatedBy:.whitespaces).map{Int($0)!}
 
