@@ -6,13 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		71C602602D3D918400ADB604 /* AdventOfCodeStarterPack in Frameworks */ = {isa = PBXBuildFile; productRef = 71C6025F2D3D918400ADB604 /* AdventOfCodeStarterPack */; };
-		71FECD6D2D188AA700F63315 /* AdventOfCodeStarterPack in Frameworks */ = {isa = PBXBuildFile; productRef = 71FECD6C2D188AA700F63315 /* AdventOfCodeStarterPack */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		71FECD562D18879100F63315 /* CopyFiles */ = {
+		71C6027B2D3E582F00ADB604 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
 			dstPath = "";
@@ -24,15 +19,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		71FECD582D18879100F63315 /* Day_21 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day_21; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C6027D2D3E582F00ADB604 /* Day_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day_4; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		71FECD6F2D18A5F100F63315 /* Exceptions for "Day_21" folder in "Copy Files" phase from "Day_21" target */ = {
+		71C602892D3E587800ADB604 /* Exceptions for "Day_4" folder in "Copy Files" phase from "Day_4" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 71FECD562D18879100F63315 /* CopyFiles */;
+			buildPhase = 71C6027B2D3E582F00ADB604 /* CopyFiles */;
 			membershipExceptions = (
-				example.txt,
 				input.txt,
 				input1.txt,
 			);
@@ -40,41 +34,39 @@
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		71FECD5A2D18879100F63315 /* Day_21 */ = {
+		71C6027F2D3E582F00ADB604 /* Day_4 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				71FECD6F2D18A5F100F63315 /* Exceptions for "Day_21" folder in "Copy Files" phase from "Day_21" target */,
+				71C602892D3E587800ADB604 /* Exceptions for "Day_4" folder in "Copy Files" phase from "Day_4" target */,
 			);
-			path = Day_21;
+			path = Day_4;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		71FECD552D18879100F63315 /* Frameworks */ = {
+		71C6027A2D3E582F00ADB604 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71FECD6D2D188AA700F63315 /* AdventOfCodeStarterPack in Frameworks */,
-				71C602602D3D918400ADB604 /* AdventOfCodeStarterPack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		71FECD4F2D18879100F63315 = {
+		71C602742D3E582F00ADB604 = {
 			isa = PBXGroup;
 			children = (
-				71FECD5A2D18879100F63315 /* Day_21 */,
-				71FECD592D18879100F63315 /* Products */,
+				71C6027F2D3E582F00ADB604 /* Day_4 */,
+				71C6027E2D3E582F00ADB604 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		71FECD592D18879100F63315 /* Products */ = {
+		71C6027E2D3E582F00ADB604 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71FECD582D18879100F63315 /* Day_21 */,
+				71C6027D2D3E582F00ADB604 /* Day_4 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,69 +74,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71FECD572D18879100F63315 /* Day_21 */ = {
+		71C6027C2D3E582F00ADB604 /* Day_4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71FECD5F2D18879100F63315 /* Build configuration list for PBXNativeTarget "Day_21" */;
+			buildConfigurationList = 71C602842D3E582F00ADB604 /* Build configuration list for PBXNativeTarget "Day_4" */;
 			buildPhases = (
-				71FECD542D18879100F63315 /* Sources */,
-				71FECD552D18879100F63315 /* Frameworks */,
-				71FECD562D18879100F63315 /* CopyFiles */,
+				71C602792D3E582F00ADB604 /* Sources */,
+				71C6027A2D3E582F00ADB604 /* Frameworks */,
+				71C6027B2D3E582F00ADB604 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				71FECD5A2D18879100F63315 /* Day_21 */,
+				71C6027F2D3E582F00ADB604 /* Day_4 */,
 			);
-			name = Day_21;
+			name = Day_4;
 			packageProductDependencies = (
-				71FECD6C2D188AA700F63315 /* AdventOfCodeStarterPack */,
-				71C6025F2D3D918400ADB604 /* AdventOfCodeStarterPack */,
 			);
-			productName = Day_21;
-			productReference = 71FECD582D18879100F63315 /* Day_21 */;
+			productName = Day_4;
+			productReference = 71C6027D2D3E582F00ADB604 /* Day_4 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		71FECD502D18879100F63315 /* Project object */ = {
+		71C602752D3E582F00ADB604 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					71FECD572D18879100F63315 = {
+					71C6027C2D3E582F00ADB604 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 71FECD532D18879100F63315 /* Build configuration list for PBXProject "Day_21" */;
+			buildConfigurationList = 71C602782D3E582F00ADB604 /* Build configuration list for PBXProject "Day_4" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 71FECD4F2D18879100F63315;
+			mainGroup = 71C602742D3E582F00ADB604;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				71C6025E2D3D918400ADB604 /* XCRemoteSwiftPackageReference "AdventOfCodeStarterPack" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 71FECD592D18879100F63315 /* Products */;
+			productRefGroup = 71C6027E2D3E582F00ADB604 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71FECD572D18879100F63315 /* Day_21 */,
+				71C6027C2D3E582F00ADB604 /* Day_4 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		71FECD542D18879100F63315 /* Sources */ = {
+		71C602792D3E582F00ADB604 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,7 +141,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		71FECD5D2D18879100F63315 /* Debug */ = {
+		71C602822D3E582F00ADB604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +194,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -217,7 +204,7 @@
 			};
 			name = Debug;
 		};
-		71FECD5E2D18879100F63315 /* Release */ = {
+		71C602832D3E582F00ADB604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +251,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -272,7 +259,7 @@
 			};
 			name = Release;
 		};
-		71FECD602D18879100F63315 /* Debug */ = {
+		71C602852D3E582F00ADB604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -283,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		71FECD612D18879100F63315 /* Release */ = {
+		71C602862D3E582F00ADB604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -297,48 +284,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71FECD532D18879100F63315 /* Build configuration list for PBXProject "Day_21" */ = {
+		71C602782D3E582F00ADB604 /* Build configuration list for PBXProject "Day_4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71FECD5D2D18879100F63315 /* Debug */,
-				71FECD5E2D18879100F63315 /* Release */,
+				71C602822D3E582F00ADB604 /* Debug */,
+				71C602832D3E582F00ADB604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71FECD5F2D18879100F63315 /* Build configuration list for PBXNativeTarget "Day_21" */ = {
+		71C602842D3E582F00ADB604 /* Build configuration list for PBXNativeTarget "Day_4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71FECD602D18879100F63315 /* Debug */,
-				71FECD612D18879100F63315 /* Release */,
+				71C602852D3E582F00ADB604 /* Debug */,
+				71C602862D3E582F00ADB604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		71C6025E2D3D918400ADB604 /* XCRemoteSwiftPackageReference "AdventOfCodeStarterPack" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/redwasp/AdventOfCodeStarterPack";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		71C6025F2D3D918400ADB604 /* AdventOfCodeStarterPack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 71C6025E2D3D918400ADB604 /* XCRemoteSwiftPackageReference "AdventOfCodeStarterPack" */;
-			productName = AdventOfCodeStarterPack;
-		};
-		71FECD6C2D188AA700F63315 /* AdventOfCodeStarterPack */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AdventOfCodeStarterPack;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 71FECD502D18879100F63315 /* Project object */;
+	rootObject = 71C602752D3E582F00ADB604 /* Project object */;
 }
