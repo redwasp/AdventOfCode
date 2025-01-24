@@ -1,0 +1,15 @@
+{
+  "originHash" : "43931b7420d32ed38ae5c8da4e8652bc9010ff2e1db0884e587204977d22b5c0",
+  "pins" : [
+    {
+      "identity" : "adventofcodestarterpack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/redwasp/AdventOfCodeStarterPack",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ace6aaf0ceb3593c7064cba397aac267c4f3701e"
+      }
+    }
+  ],
+  "version" : 3
+}
