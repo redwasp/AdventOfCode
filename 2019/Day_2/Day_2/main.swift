@@ -10,7 +10,7 @@ import Foundation
 let inputFileURL  = URL(fileURLWithPath: "input.txt")
 let inputFileData = try! String(contentsOf: inputFileURL).trimmingCharacters(in: .whitespacesAndNewlines)
 var data = inputFileData.components(separatedBy:",").map{Int($0)!}
-
+  
 func running(_ programm: [Int]) -> Int {
     var programm = programm
     var pos = 0
