@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7196F3F52D470C0900C427CB /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 714D78FC2D4555C700311BA7 /* input.txt */; };
+		7196F3F62D470C0A00C427CB /* input1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7196F3F42D470C0200C427CB /* input1.txt */; };
 		71CBADEB2B2B640900585612 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CBADEA2B2B640900585612 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +19,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				7196F3F52D470C0900C427CB /* input.txt in CopyFiles */,
+				7196F3F62D470C0A00C427CB /* input1.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -24,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		714D78FC2D4555C700311BA7 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		7196F3F42D470C0200C427CB /* input1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input1.txt; sourceTree = "<group>"; };
 		71CBADE72B2B640900585612 /* Day_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day_1; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CBADEA2B2B640900585612 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +65,7 @@
 			children = (
 				71CBADEA2B2B640900585612 /* main.swift */,
 				714D78FC2D4555C700311BA7 /* input.txt */,
+				7196F3F42D470C0200C427CB /* input1.txt */,
 			);
 			path = Day_1;
 			sourceTree = "<group>";
