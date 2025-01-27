@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7196F3F12D47080A00C427CB /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 714D78FD2D45561700311BA7 /* input.txt */; };
+		7196F3F22D47080C00C427CB /* input1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7196F3F02D4707F000C427CB /* input1.txt */; };
+		7196F3F32D47080E00C427CB /* example.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 714D78FE2D45561700311BA7 /* example.txt */; };
 		71F780E22B2B7EAF00765E7E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F780E12B2B7EAF00765E7E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +20,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				7196F3F12D47080A00C427CB /* input.txt in CopyFiles */,
+				7196F3F22D47080C00C427CB /* input1.txt in CopyFiles */,
+				7196F3F32D47080E00C427CB /* example.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -25,6 +31,7 @@
 /* Begin PBXFileReference section */
 		714D78FD2D45561700311BA7 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		714D78FE2D45561700311BA7 /* example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = example.txt; sourceTree = "<group>"; };
+		7196F3F02D4707F000C427CB /* input1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input1.txt; sourceTree = "<group>"; };
 		71F780DE2B2B7EAF00765E7E /* Day_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F780E12B2B7EAF00765E7E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				71F780E12B2B7EAF00765E7E /* main.swift */,
+				7196F3F02D4707F000C427CB /* input1.txt */,
 				714D78FD2D45561700311BA7 /* input.txt */,
 				714D78FE2D45561700311BA7 /* example.txt */,
 			);

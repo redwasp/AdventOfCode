@@ -10,7 +10,7 @@ import Foundation
 let inputFileURL  = URL(fileURLWithPath: "input.txt")
 let inputFileData = try! String(contentsOf: inputFileURL).trimmingCharacters(in: .whitespacesAndNewlines)
 var data = inputFileData.components(separatedBy:",").map{Int($0)!}
-  
+
 func running(_ programm: [Int]) -> Int {
     var programm = programm
     var pos = 0
@@ -42,8 +42,11 @@ func running(_ programm: [Int]) -> Int {
     } while opcode != 99
     return programm[0]
 }
+var programm1 = data
+programm1[1] = 12
+programm1[2] = 2
 
-print("Day2_1: \(running(data))")
+print("Day2_1: \(running(programm1))")
 
 func running2(_ programm: [Int]) -> Int {
     for noun in 12...99 {
